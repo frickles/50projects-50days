@@ -20,17 +20,21 @@ body {
 }
 
 .panel {
-  background-size: cover 100%;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: 80vh;
   border-radius: 50px;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
   color: #fff;
   cursor: pointer;
   flex: 0.5;
   margin: 10px;
   position: relative;
   transition: all 700ms ease-in;
+  -webkit-transition: all 700ms ease-in;
+  -moz-transition: all 700ms ease-in;
 }
 
 .panel h3 {
